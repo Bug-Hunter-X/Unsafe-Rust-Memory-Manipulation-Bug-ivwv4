@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: using unsafe code to modify a vector's internal data.  The code directly manipulates a raw pointer to the vector's memory without bounds checking, leading to undefined behavior.  The solution shows how to perform a safe modification.
